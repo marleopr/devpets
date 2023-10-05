@@ -39,9 +39,6 @@ const DownloadButton = () => {
     return (
         <>
             {!isInstalled && (
-                // <button className="buttonDownload" onClick={handleInstallApp}>
-                //     Baixe o App
-                // </button>
                 <IconeDownload onClick={handleInstallApp} />
             )}
         </>
@@ -56,7 +53,7 @@ const IconeDownload = styled(FaDownload)`
     bottom: 0;
     right: 0;
     margin: 10px;
-    z-index: 999;
+    z-index: 99;
     cursor: pointer;
     :hover{
         color: ${colors.blue};

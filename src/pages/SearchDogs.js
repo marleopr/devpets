@@ -1,11 +1,11 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
-import StarRating from "../components/StarRating"
 import { Input, InputGroup } from "@chakra-ui/react"
 import useDebounce from "../components/useDebounce"
 import DogLoader from "../components/DogLoader"
 import pets from "../assets/dogBook.png"
 import styled from "styled-components"
+import StarRatingDogs from "../components/StarRatingDogs"
 
 const SearchDogs = () => {
     const [raca, setRaca] = useState("")
@@ -28,6 +28,7 @@ const SearchDogs = () => {
         } catch (error) {
             console.log(error)
             setLoading(false)
+            console.log("Raça não encontrada")
         }
     }
     const debouncedNome = useDebounce(raca, 700)
@@ -53,9 +54,8 @@ const SearchDogs = () => {
                     <DogLoader />
                 ) : (
                     data && data ? (
-                        <StarRating data={data} />
+                        <StarRatingDogs data={data} />
                     ) : (
-
                         <img style={{ marginTop: '10px', width: '40rem' }} src={pets} alt="pets" />
                     )
                 )}

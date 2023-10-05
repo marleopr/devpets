@@ -1,15 +1,13 @@
-// import RadioButtons from "../components/RadioButtons"
 import EasterEgg from "../components/EasterEgg"
 import styled from "styled-components"
-import backgroundCars from '../assets/backgroundCars.png'
-import RadioCyberButton from "../components/RadioCyberButton"
+import DogAndCat from '../assets/DogAndCat.png'
+import RadioButtonPets from "../components/RadioButtonPets"
 
 const HomePage = () => {
 
     return (
         <Main>
-            {/* <RadioButtons /> */}
-            <RadioCyberButton />
+            <RadioButtonPets />
             <EasterEgg />
             <div style={{ marginTop: '50px' }}>
             </div>
@@ -24,11 +22,11 @@ const Main = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 30vh;
+    height: 50vh;
     margin-top: 20px;
     box-sizing: border-box;
     text-align: center;
-    background-image: url(${backgroundCars});
+    background-image: url(${DogAndCat});
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
