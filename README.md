@@ -2,7 +2,7 @@
 
 <img src="./src/assets/pets.png" width="300px">
 
-#### Site com informações atualizadas com valores de referência de veículos utilizando a API [API Ninjas](https://api-ninjas.com/).
+#### Site com informações úteis sobre cães e gatos utilizando a API [API Ninjas](https://api-ninjas.com/).
 
 # `Link`
 
