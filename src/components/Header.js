@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 import { goToHomePage } from "../routes/Coordinator";
 import { useNavigate } from "react-router-dom";
-import devPets from "../assets/devPets.png"
+import devPets from "../assets/pets.png"
 
 const Header = () => {
     const navigate = useNavigate()

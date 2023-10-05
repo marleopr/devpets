@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom"
-import { goToInfo, goToSearchPlaca, goToSearchtabela } from "../routes/Cordinator"
+import { goToInfo } from "../routes/Cordinator"
+import { goToSearchCats, goToSearchDogs } from "../routes/Coordinator"
 // import './radioButtons.css'
 
 const RadioButtons = () => {
@@ -7,13 +8,13 @@ const RadioButtons = () => {
 
     return (
         <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <label onClick={() => goToSearchPlaca(navigate)} id="topleft" className="containerHome">
+            <label onClick={() => goToSearchDogs(navigate)} id="topleft" className="containerHome">
                 <input name="my-radio-button" type="radio" />
                 <label id="tl"> <br />Placa</label>
                 <div className="selected"></div>
             </label>
             &nbsp;
-            <label onClick={() => goToSearchtabela(navigate)} id="topright" className="containerHome">
+            <label onClick={() => goToSearchCats(navigate)} id="topright" className="containerHome">
                 <input name="my-radio-button" type="radio" />
                 <label id="tr"><br />Tabela</label>
                 <div className="selected"></div>

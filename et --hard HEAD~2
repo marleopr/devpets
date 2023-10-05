@@ -1,0 +1,35 @@
+[33mcommit 9a7618a1ad61bd04b3310d8d9a79c229b5d52e54[m[33m ([m[1;36mHEAD -> [m[1;32mdogs[m[33m)[m
+Author: marleopr <marleopr@hotmail.com>
+Date:   Thu Oct 5 15:17:22 2023 -0300
+
+    Fix
+
+[33mcommit c9cb947a097a40e1ad7d07c45134f0a9623819f0[m
+Author: marleopr <marleopr@hotmail.com>
+Date:   Thu Oct 5 15:06:00 2023 -0300
+
+    Remoção arquivos implementação
+
+[33mcommit 3771f8b85a660397c6f9903b6130b4cbab7c5ec6[m
+Author: marleopr <marleopr@hotmail.com>
+Date:   Thu Oct 5 15:01:31 2023 -0300
+
+    Implementada tela inicial
+
+[33mcommit 45210b21f99ba76c9c7f67645582e154ae7c6683[m
+Author: marleopr <marleopr@hotmail.com>
+Date:   Thu Oct 5 10:23:57 2023 -0300
+
+    Implementado Menu e + informações
+
+[33mcommit 83f533958cbd39bbfd5dfb2bef67352a114722e2[m[33m ([m[1;31morigin/dogs[m[33m)[m
+Author: marleopr <marleopr@hotmail.com>
+Date:   Tue Oct 3 19:48:05 2023 -0300
+
+    Ajustes download app
+
+[33mcommit 3e552a5cfa7aba382257bca46a9d3d5941c5a815[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: marleopr <marleopr@hotmail.com>
+Date:   Tue Oct 3 19:32:30 2023 -0300
+
+    Upload DevPets
