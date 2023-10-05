@@ -15,7 +15,7 @@ const Menu = () => {
                         </span></a>
                         </li>
                         <li className="menu-nav-item"><a className="menu-nav-link" href="/info"><span>
-                            <div>Idade animal</div>
+                            <div>Informações úteis</div>
                         </span></a>
                         </li>
                         <li className="menu-nav-item"><a className="menu-nav-link" href="/dogs"><span>
