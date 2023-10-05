@@ -36,7 +36,7 @@ Entre outros.
 
 - Como funciona a idade dos cães e gatos conforme o seu porte.
 
-O repositório do projeto pode ser encontrado [aqui](https://github.com/marleopr/dogs)
+O repositório do projeto pode ser encontrado [aqui](https://github.com/marleopr/devpets)
 
 | Tela de inicial                                    | Página de erro                                       |
 | -------------------------------------------------- | ---------------------------------------------------- |
@@ -58,7 +58,7 @@ Git instalado em sua máquina. Você pode baixá-lo em https://git-scm.com/.
 ##### Clone o Repositório:
 
 Abra o terminal (ou Git Bash) e navegue até o diretório onde deseja clonar o projeto.
-Execute o comando: git clone https://github.com/marleopr/dogs.git
+Execute o comando: git clone https://github.com/marleopr/devpets.git
 
 ##### Acesse o Diretório do Projeto:
 
